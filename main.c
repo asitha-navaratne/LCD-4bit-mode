@@ -3,10 +3,10 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define LCD_DDR 		DDRB									///< DDR of LCD display.
-#define LCD_PORT 		PORTB									///< Port of LCD display.
-#define RS 			PB0									///< Pin for LCD Register Select terminal.
-#define EN 			PB1									///< Pin for LCD Enable terminal.
+#define LCD_DDR 		DDRB						///< DDR of LCD display.
+#define LCD_PORT 		PORTB						///< Port of LCD display.
+#define RS 			PB0						///< Pin for LCD Register Select terminal.
+#define EN 			PB1						///< Pin for LCD Enable terminal.
 
 void LCD_DISPLAY_INIT(void);
 void LCD_SEND_COMMAND(unsigned char command);
