@@ -11,5 +11,4 @@ saves up the microcontroller's pins for other modules to use. Therefore, 4-bit m
 slower than sending the entire data byte at once, as when using 8-bit mode, the actual difference in time is almost negligible. The remaining data pins can be connected to GND or 
 left unconnected. When sending data, there should be a time delay between sending two consecutive nibbles or the data will not be read correctly.</p>
 
-<p align="justify">Before using 4-bit mode, the module should first be notified of the mode of operation by sending the relevant commands. The remaining operation and connections 
-all similar to 8-bit mode (Refer to the LCD-8bit-mode repo).</p>
+<p align="justify">Before using 4-bit mode, the module should first be notified of the mode of operation by sending the relevant commands. The remaining operation and connections are all similar to 8-bit mode (Refer to the <a href="https://github.com/asitha-navaratne/LCD-8bit-mode">LCD-8bit-mode repo</a>).</p>
